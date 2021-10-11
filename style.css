@@ -1,0 +1,99 @@
+body {
+    margin: 0px
+}
+
+#div {
+    border-left: 1px ridge red;
+    border-right: 1px ridge red;
+    border-bottom: 1px ridge red;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0px auto 50px auto;
+    padding: 0px;
+    text-align: justify;
+}
+
+
+#menu {
+    margin: 0px;
+    background-color: red;
+    height: 50px;
+    margin-bottom:20px;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a:link, #menu a:visited {
+    text-decoration: none;
+    color: #fff;
+    font: bold 13px Arial;
+    display: block;
+    line-height: 50px;
+    padding: 0px 20px;
+}
+
+#menu a:hover, #menu a.active {
+    color: red;
+    background-color: blue;
+}
+
+#footer {
+    margin-top: 20px;
+    font: 13px Arial;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+#footer a:link, #footer a:visited {
+    text-decoration: none;
+    color: red;
+    font: bold 13px Arial;
+}
+
+#footer a:hover, #footer a.active {
+    text-decoration: underline;
+    color: blue
+}
+.sp{
+    font-family: "Fira Sans";
+}
+.h123{
+    text-align: center;
+    font-family: "Josefin Sans";
+}
+.classimg{
+    position: relative;
+   left:1220px;
+   height: 250px;
+}
+.img1{
+    height: 220px;
+    position: relative;
+    right: 50px;
+}
+.img2{
+    text-align: center;
+    position: relative;
+    left: 185px;
+}
